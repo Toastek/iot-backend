@@ -1,0 +1,23 @@
+{
+  "name": "iot-backend",
+  "version": "1.0.0",
+  "description": "iot nodejs server and mqtt broker",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toastek/iot-backend.git"
+  },
+  "author": "victor gsell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toastek/iot-backend/issues"
+  },
+  "homepage": "https://github.com/Toastek/iot-backend#readme",
+  "dependencies": {
+    "localtunnel": "^2.0.0",
+    "mosca": "^2.8.3"
+  }
+}
